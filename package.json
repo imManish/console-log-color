@@ -1,0 +1,30 @@
+{
+  "name": "console-log-color",
+  "version": "1.0.1",
+  "description": "This is official package of console color for logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imManish/console-log-color.git"
+  },
+  "keywords": [
+    "console logs color",
+    "console color",
+    "console info"
+  ],
+  "author": "Manish J <project.developer1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imManish/console-log-color/issues"
+  },
+  "homepage": "https://github.com/imManish/console-log-color#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": ["lib/**/*"]
+}
